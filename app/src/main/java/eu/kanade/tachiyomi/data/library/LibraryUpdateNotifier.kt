@@ -69,7 +69,7 @@ class LibraryUpdateNotifier(
      * Bitmap of the app for notifications.
      */
     private val notificationBitmap by lazy {
-        BitmapFactory.decodeResource(context.resources, R.drawable.akazn)
+        BitmapFactory.decodeResource(context.resources, R.drawable.ic_akazn)
     }
 
     /**

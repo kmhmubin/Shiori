@@ -38,7 +38,7 @@ class ExtensionUpdateNotifier(
             }
             setSmallIcon(R.drawable.ic_extension_24dp)
             setColor(ContextCompat.getColor(context, R.color.ic_launcher))
-            setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.akazn))
+            setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.ic_akazn))
             setContentIntent(NotificationReceiver.openExtensionsPendingActivity(context))
             setAutoCancel(true)
         }
